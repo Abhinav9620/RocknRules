@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "153183234721",
+    "firebase_url": "https://rocknrules-2c5bf.firebaseio.com",
+    "project_id": "rocknrules-2c5bf",
+    "storage_bucket": "rocknrules-2c5bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153183234721:android:fab5db85d9949db9",
+        "android_client_info": {
+          "package_name": "com.kabhinav.rocknrules"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153183234721-bqhsgn7c47mhgfvs4b2aofdqhracpt2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kabhinav.rocknrules",
+            "certificate_hash": "677c7772c23b0e6caefc0d1fc9e7800d297485e4"
+          }
+        },
+        {
+          "client_id": "153183234721-lg2csd37a2r7m3v80d034fnf0m7e0s2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3_DaXDnNZe8r9WRoqCQISH2Z_2FhWQXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153183234721-lg2csd37a2r7m3v80d034fnf0m7e0s2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RocknRules</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="button">Button</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <string name="login">LogIn</string>
+
+    <string name="e_mail">E-mail</string>
+
+    <string name="signup">SignUp</string>
+    <string name="already_signed_up_login">Already_Signed_Up?LogIn</string>
+    <string name="with_facebook">With Facebook</string>
+    <string name="facebook_app_id">154363401920658</string>
+    <string name="fb_login_protocol_scheme">fb154363401920658</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">154363401920658</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">154363401920658</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+
+</resources>
