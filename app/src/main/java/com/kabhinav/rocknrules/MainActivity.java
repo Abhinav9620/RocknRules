@@ -26,31 +26,29 @@ public class MainActivity extends AppCompatActivity {
         LogIn = (Button) findViewById(R.id.btg1);
         trans = (TextView) findViewById(R.id.tvregister);
 
-        LogIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                validatea(Name.getText().toString(), Password.getText().toString());
-                startActivity(new Intent(MainActivity.this, MapsActivity.class));
-            }
-
-        });
         trans.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, RegistrationActivity.class));
             }
         });
-    }
-
-
-
-    private void validatea(String Name, String Password) {
-
-
+       LogIn.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(MainActivity.this, MapsActivity.class));
+           }
+       });
     }
 
 }
+
+
+
+
+
+
+
 
 
 

@@ -68,7 +68,7 @@ public class RegistrationActivity extends AppCompatActivity {
                                 Toast.makeText(RegistrationActivity.this, "Registration Failed.", Toast.LENGTH_SHORT).show();
                             }
 
-                            startActivity(new Intent(RegistrationActivity.this, MapsActivity.class));
+                           // startActivity(new Intent(RegistrationActivity.this, MapsActivity.class));
                         }
 
                     });
@@ -89,7 +89,7 @@ public class RegistrationActivity extends AppCompatActivity {
     }
 
     private void setEmailVerfication() {
-          FirebaseUser user = firebaseAuth.getInstance().getCurrentUser();
+          FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
           if(user!=null){
               user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                   @Override
